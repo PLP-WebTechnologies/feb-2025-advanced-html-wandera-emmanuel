@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form and Contact List</title>
+</head>
+
+<body>
+    <!-- added ordered list with roman Numerals -->
+    <section>
+        <h2>FORM 4 STREAMS</h2>
+        <ol type="I">
+            <li>FORM 4 BLUE</li>
+            <li>FORM 4 YELLOW</li>
+            <li>FORM 4 GREEN</li>
+        </ol>
+    </section>
+
+    <!--an external image from pexels.com-->
+    <section>
+        <h2>Image</h2>
+        <img src="c:\Users\MILES\Downloads\class.jpg" alt="Beautiful Landscape from Pexels" width="500">
+    </section>
+
+    <!-- Table of Contacts -->
+    <section>
+        <h2>class teacher's Contacts</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>MD.CAROL</td>
+                    <td>nairobi City</td>
+                    <td>0745675789</td>
+                    <td>carolmuviti@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Mr.maina</td>
+                    <td>naivasha Town</td>
+                    <td>0745567889</td>
+                    <td>johnmaina@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>md.cecile</td>
+                    <td>kiamaina,Village</td>
+                    <td>076576778</td>
+                    <td>cecile@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>paul</td>
+                    <td>nairobi</td>
+                    <td>074766809</td>
+                    <td>paul@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Dr.Emmanuel</td>
+                    <td>nairobi</td>
+                    <td>0746765785</td>
+                    <td>emmanuel@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form>
+            <!-- Name Field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <!-- Email Field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <!-- Password Field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+            <!-- Date Field -->
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <!-- Dropdown -->
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="kenya">Kenya</option>
+                <option value="uganda">Uganda</option>
+                <option value="tanzania">Tanzania</option>
+            </select><br><br>
+
+            <!-- Radio Buttons -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <!-- Checkboxes -->
+            <label>Interests:</label>
+            <input type="checkbox" id="sports" name="interest" value="sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="music" name="interest" value="music">
+            <label for="music">Music</label>
+            <input type="checkbox" id="coding" name="interest" value="coding">
+            <label for="coding">Coding</label><br><br>
+
+            <!-- Submit Button -->
+            <button type="submit">Register</button>
+        </form>
+    </section>
+</body>
+
+</html>
